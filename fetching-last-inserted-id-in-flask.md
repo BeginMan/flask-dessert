@@ -8,4 +8,4 @@ and after that you can see the id
 
 	print md.id
 
-
+可参考[flask-sqlalchemy Select, Insert, Delete](http://docs.jinkan.org/docs/flask-sqlalchemy/queries.html)
