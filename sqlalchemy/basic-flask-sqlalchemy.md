@@ -142,6 +142,6 @@ SQLALCHEMY_DATABASE_URI格式实例：
 
 ![](http://beginman.qiniudn.com/flask-sqlalchemy-in.png)
 
-
+如果使用原始的sql，可参考[sql_with_in_opreate.py](https://github.com/BeginMan/flask-dessert/blob/master/sqlalchemy/sql_with_in_opreate.py)
 
 
