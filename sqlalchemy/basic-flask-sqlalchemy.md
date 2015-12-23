@@ -130,3 +130,18 @@ SQLALCHEMY_DATABASE_URI格式实例：
 
 参考：[Flask-SQLAlchemy 学习](http://www.itwhy.org/%E6%95%B0%E6%8D%AE%E5%BA%93/flask-sqlalchemy-%E5%AD%A6%E4%B9%A0.html)
 
+# 十、filter
+参考
+
+- [Flask-SQLAlchemy API](http://docs.jinkan.org/docs/flask-sqlalchemy/api.html),这部分文档叙述了所有 Flask-SQLAlchemy 中的公共类和函数。
+- [SQLAlchemy Query API](http://docs.sqlalchemy.org/en/rel_0_9/orm/query.html#)
+
+## in操作
+
+	res = User.query.filter(User.email.in_(('x1@dom1.com', 'x2@dom2.com')))
+
+![](http://beginman.qiniudn.com/flask-sqlalchemy-in.png)
+
+
+
+
